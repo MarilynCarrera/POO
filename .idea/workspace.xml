@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb05bdd7-6c86-4fab-a9f9-f929b2715a4b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,9 +31,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.POO.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -42,6 +60,19 @@
       <option name="presentableId" value="Default" />
       <updated>1720403981505</updated>
     </task>
+    <task id="LOCAL-00001" summary="# Ejemplo de uso&#10;# Crear objeto ejemplo de la clase Monitoreo&#10;operador_monitoreo = Operador_Monitoreo(&quot;Juan&quot;, &quot;831726&quot;, &quot;Monitoreo&quot;)&#10;operador_monitoreo.mostrar_informacion_detallada()&#10;&#10;# Ejemplo de uso&#10;# Crear objeto ejemplo de la clase Respaldo&#10;operador_respaldo = Operador_Respaldo(&quot;Yorvi&quot;, &quot;731524&quot;, &quot;Respaldos&quot;)&#10;operador_respaldo.mostrar_informacion_detallada()&#10;&#10;# Ejemplo de uso&#10;# Crear objeto ejemplo de la clase Batch&#10;operador_batch = Operador_Respaldo(&quot;Carol&quot;, &quot;100229&quot;, &quot;Batch&quot;)&#10;operador_batch.mostrar_informacion_detallada()&#10;&#10;print(&quot;===========ACTIVIDADES Y SUELDOS============&quot;)&#10;# Ejemplo de uso objetos para la actividad Monitoreo&#10;actividad_monitoreo = Actividad(&quot;Monitoreo&quot;)&#10;actividad_monitoreo.sueldo_segun_actividad()&#10;&#10;# Ejemplo de uso objetos para la actividad Respaldo&#10;actividad_respaldo = Actividad(&quot;Respaldo&quot;)&#10;actividad_respaldo.sueldo_segun_actividad()&#10;&#10;# Ejemplo de uso objetos para la actividad Batch&#10;actividad_batch = Actividad(&quot;Batch&quot;)&#10;actividad_batch.sueldo_segun_actividad()">
+      <option name="closed" value="true" />
+      <created>1720405302322</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720405302323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="# Ejemplo de uso&#10;# Crear objeto ejemplo de la clase Monitoreo&#10;operador_monitoreo = Operador_Monitoreo(&quot;Juan&quot;, &quot;831726&quot;, &quot;Monitoreo&quot;)&#10;operador_monitoreo.mostrar_informacion_detallada()&#10;&#10;# Ejemplo de uso&#10;# Crear objeto ejemplo de la clase Respaldo&#10;operador_respaldo = Operador_Respaldo(&quot;Yorvi&quot;, &quot;731524&quot;, &quot;Respaldos&quot;)&#10;operador_respaldo.mostrar_informacion_detallada()&#10;&#10;# Ejemplo de uso&#10;# Crear objeto ejemplo de la clase Batch&#10;operador_batch = Operador_Respaldo(&quot;Carol&quot;, &quot;100229&quot;, &quot;Batch&quot;)&#10;operador_batch.mostrar_informacion_detallada()&#10;&#10;print(&quot;===========ACTIVIDADES Y SUELDOS============&quot;)&#10;# Ejemplo de uso objetos para la actividad Monitoreo&#10;actividad_monitoreo = Actividad(&quot;Monitoreo&quot;)&#10;actividad_monitoreo.sueldo_segun_actividad()&#10;&#10;# Ejemplo de uso objetos para la actividad Respaldo&#10;actividad_respaldo = Actividad(&quot;Respaldo&quot;)&#10;actividad_respaldo.sueldo_segun_actividad()&#10;&#10;# Ejemplo de uso objetos para la actividad Batch&#10;actividad_batch = Actividad(&quot;Batch&quot;)&#10;actividad_batch.sueldo_segun_actividad()" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Ejemplo de uso&#10;# Crear objeto ejemplo de la clase Monitoreo&#10;operador_monitoreo = Operador_Monitoreo(&quot;Juan&quot;, &quot;831726&quot;, &quot;Monitoreo&quot;)&#10;operador_monitoreo.mostrar_informacion_detallada()&#10;&#10;# Ejemplo de uso&#10;# Crear objeto ejemplo de la clase Respaldo&#10;operador_respaldo = Operador_Respaldo(&quot;Yorvi&quot;, &quot;731524&quot;, &quot;Respaldos&quot;)&#10;operador_respaldo.mostrar_informacion_detallada()&#10;&#10;# Ejemplo de uso&#10;# Crear objeto ejemplo de la clase Batch&#10;operador_batch = Operador_Respaldo(&quot;Carol&quot;, &quot;100229&quot;, &quot;Batch&quot;)&#10;operador_batch.mostrar_informacion_detallada()&#10;&#10;print(&quot;===========ACTIVIDADES Y SUELDOS============&quot;)&#10;# Ejemplo de uso objetos para la actividad Monitoreo&#10;actividad_monitoreo = Actividad(&quot;Monitoreo&quot;)&#10;actividad_monitoreo.sueldo_segun_actividad()&#10;&#10;# Ejemplo de uso objetos para la actividad Respaldo&#10;actividad_respaldo = Actividad(&quot;Respaldo&quot;)&#10;actividad_respaldo.sueldo_segun_actividad()&#10;&#10;# Ejemplo de uso objetos para la actividad Batch&#10;actividad_batch = Actividad(&quot;Batch&quot;)&#10;actividad_batch.sueldo_segun_actividad()" />
   </component>
 </project>
